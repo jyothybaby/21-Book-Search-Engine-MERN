@@ -5,7 +5,6 @@ const path = require('path');
 const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
-const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -28,20 +27,6 @@ if (process.env.NODE_ENV === 'production') {
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/booksdb",
- {
-    useNewUrlParser: true
-    // useUnifiedTopology: true,
-    // useCreateIndex: true,
-    // useFindAndModify: false
-
-}
-);
-mongoose.connection.on('error', (err)=>{
-console.error(err);
-}
-)
 
 db.once('open', () => {
   app.listen(PORT, () => {
