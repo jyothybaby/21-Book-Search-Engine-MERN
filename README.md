@@ -44,9 +44,11 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ## Dependencies
 npm install
 npm run develop
-![screen-1]()<br>
-![screen-2]()<br>
-![screen-3]()<br>
+
+## Screenshots
+![screen-1](https://github.com/jyothybaby/21-Book-Search-Engine-MERN/blob/main/screenshots/Capture1.JPG)<br>
+![screen-2](https://github.com/jyothybaby/21-Book-Search-Engine-MERN/blob/main/screenshots/Capture2.JPG)<br>
+![screen-3](https://github.com/jyothybaby/21-Book-Search-Engine-MERN/blob/main/screenshots/Capture3.JPG)<br>
 
 <b>Links for the project:</b><br>
 1. GitHub repository URL: https://github.com/jyothybaby/21-Book-Search-Engine-MERN
