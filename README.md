@@ -42,8 +42,18 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 
 ## Dependencies
-npm install
-npm run develop
+    * npm install
+    * npm run develop
+
+## Technologies Used
+    * HTML 
+    * CSS
+    * React
+    * Express JS
+    * Node JS
+    * GraphQL
+    * AppoloServer
+    * MongoDB
 
 ## Screenshots
 ![screen-1](https://github.com/jyothybaby/21-Book-Search-Engine-MERN/blob/main/screenshots/Capture1.JPG)<br>
